@@ -74,21 +74,36 @@ public class NPC : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            if (DialougePanel.activeInHierarchy)
-            {
-                zeroText();
-            }
-
-            else
+            if (!DialougePanel.activeInHierarchy)
             {
                 DialougePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
 
-            if(DialougeText.text == dialouge[index])
+            else if (DialougeText.text == dialouge[index])
             {
-                contButton.SetActive(true);
+                nextLine();
             }
+
+            if(Input.GetKeyDown(KeyCode.Q) && DialougePanel.activeInHierarchy)
+            {
+                zeroText();
+            }
+            //if (DialougePanel.activeInHierarchy)
+            //{
+            //    zeroText();
+            //}
+
+            //else
+            //{
+            //    DialougePanel.SetActive(true);
+            //    StartCoroutine(Typing());
+            //}
+
+            //if(DialougeText.text == dialouge[index])
+            //{
+            //    contButton.SetActive(true);
+            //}
         }
     }
 }
