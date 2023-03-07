@@ -28,6 +28,7 @@ public class StartChoiceScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (playerIsClose && Input.GetKeyDown(KeyCode.E))
         {
             yesChoice.SetActive(true);
