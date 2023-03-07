@@ -286,6 +286,10 @@ PrefabInstance:
       value: 0.123
       objectReference: {fileID: 0}
     - target: {fileID: 8195857564967483083, guid: 24e55c42b6c974e4fa6208b28ffb083e, type: 3}
+      propertyPath: wordSpeed
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195857564967483083, guid: 24e55c42b6c974e4fa6208b28ffb083e, type: 3}
       propertyPath: contButton
       value: 
       objectReference: {fileID: 194189530}
@@ -575,6 +579,10 @@ PrefabInstance:
       value: 0.123
       objectReference: {fileID: 0}
     - target: {fileID: 8195857564967483083, guid: 24e55c42b6c974e4fa6208b28ffb083e, type: 3}
+      propertyPath: wordSpeed
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195857564967483083, guid: 24e55c42b6c974e4fa6208b28ffb083e, type: 3}
       propertyPath: contButton
       value: 
       objectReference: {fileID: 194189530}
@@ -732,6 +740,26 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6970004281100014890, guid: e6f3d4f21d582c646bd33ae64cd2953d, type: 3}
+      propertyPath: m_Color.a
+      value: 0.7647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970004281100014890, guid: e6f3d4f21d582c646bd33ae64cd2953d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8113208
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970004281100014890, guid: e6f3d4f21d582c646bd33ae64cd2953d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.14894007
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970004281100014890, guid: e6f3d4f21d582c646bd33ae64cd2953d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.06505875
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970004281673749797, guid: e6f3d4f21d582c646bd33ae64cd2953d, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6970004282518391544, guid: e6f3d4f21d582c646bd33ae64cd2953d, type: 3}
       propertyPath: m_Name
       value: Dialouge Canvas
