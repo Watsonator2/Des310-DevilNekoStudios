@@ -43,6 +43,7 @@ public class NPC : MonoBehaviour
         DialougeText.text = "";
         index = 0;
         DialougePanel.SetActive(false);
+        StopCoroutine(Typing());
     }
     IEnumerator Typing()
     {
