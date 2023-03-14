@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8195857564967483083}
   - component: {fileID: 8195857564967483084}
   - component: {fileID: 8195857564967483085}
+  - component: {fileID: 7243159657751793010}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -151,3 +152,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.07, y: 1}
   m_Direction: 0
+--- !u!114 &7243159657751793010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8195857564967483080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec4d0e9f29c7ed48a2f4194a1a5a22f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialougePanel: {fileID: 0}
+  DialougeText: {fileID: 0}
+  dialouge: []
+  contButton: {fileID: 0}
+  wordSpeed: 0
+  playerIsClose: 0

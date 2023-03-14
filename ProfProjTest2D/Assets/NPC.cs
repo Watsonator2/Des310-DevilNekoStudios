@@ -11,6 +11,7 @@ public class NPC : MonoBehaviour
     public Text DialougeText;
     public string[] dialouge;
     private int index;
+    public GameObject[] portrait;
     public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
@@ -62,6 +63,8 @@ public class NPC : MonoBehaviour
         {
             index++;
             DialougeText.text = "";
+            portrait[index - 1].SetActive(false);
+            portrait[index].SetActive(true);
             StartCoroutine(Typing());
         }
 
@@ -78,6 +81,7 @@ public class NPC : MonoBehaviour
             if (!DialougePanel.activeInHierarchy)
             {
                 DialougePanel.SetActive(true);
+                portrait[index].SetActive(true);
                 StartCoroutine(Typing());
             }
 
