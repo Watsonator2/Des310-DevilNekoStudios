@@ -7,12 +7,28 @@ public class LevelLoader : MonoBehaviour
 {
 
     public bool playerIsClose;
+    private AudioSource source;
+
+    private void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
+    IEnumerator loadLevel()
+    {
+        source.Play();
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("VictimsGame");
+    }
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            SceneManager.LoadScene("VictimsGame");
+
+            StartCoroutine(loadLevel()); 
+            //source.Play();
+            //SceneManager.LoadScene("VictimsGame");
         }
     }
 
