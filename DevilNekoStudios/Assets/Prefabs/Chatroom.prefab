@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4596194911170588205}
   - component: {fileID: 4596194911170588204}
   m_Layer: 5
-  m_Name: UICanvas
+  m_Name: Chatroom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

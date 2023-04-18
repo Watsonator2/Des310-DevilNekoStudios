@@ -23,7 +23,19 @@ public class ChatroomScript : MonoBehaviour
         
     }
 
-   public void toggleChatroom()
+    public GameObject targetText;
+    public int timeDisplayed;
+
+    IEnumerator startText()
+    {
+        targetText.SetActive(true);
+        yield return new WaitForSeconds(timeDisplayed);
+        targetText.SetActive(false);
+
+    }
+
+
+    public void toggleChatroom()
     {
     
         if (chatRoom.activeInHierarchy)
@@ -32,6 +44,7 @@ public class ChatroomScript : MonoBehaviour
             chatRoom.SetActive(false);
             if (!nextInteract.activeInHierarchy)
             {
+                StartCoroutine(startText());
                 nextInteract.SetActive(true);
             }
         }

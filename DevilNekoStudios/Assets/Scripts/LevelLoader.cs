@@ -14,6 +14,11 @@ public class LevelLoader : MonoBehaviour
         source = GetComponent<AudioSource>();
     }
 
+
+    public void wrapper()
+    {
+        StartCoroutine(loadLevel());
+    }
     IEnumerator loadLevel()
     {
         source.Play();

@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NoChoiceScript : MonoBehaviour
+public class YesChoiceScript : MonoBehaviour
 {
     public bool playerIsClose;
+    public AudioSource source;
+
+    private void Start()
+    {
+        source= GetComponent<AudioSource>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -27,8 +33,21 @@ public class NoChoiceScript : MonoBehaviour
     {
         if (playerIsClose && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene("NoChoiceScene");
-            Debug.Log("No Choosen");
+            SceneManager.LoadScene("YesChoiceScene");
+            Debug.Log("Yes Choosen");
         }
     }
+
+
+    IEnumerator yesChoiceCo()
+    {
+        source.Play();
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene("YesChoiceScene");
+    }
+    public void yesChoice()
+    {
+    StartCoroutine(yesChoiceCo());
+    }
 }
+

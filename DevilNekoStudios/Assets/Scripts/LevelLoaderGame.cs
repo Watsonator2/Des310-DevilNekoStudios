@@ -5,12 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoaderGame : MonoBehaviour { 
     public bool playerIsClose;
-// Update is called once per frame
-void Update()
+    public AudioSource source;
+
+    private void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
+    IEnumerator loadNextScene()
+    {
+        source.Play();
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("Final Desktop");
+    }
+    // Update is called once per frame
+    void Update()
 {
     if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
     {
-        SceneManager.LoadScene("VictimsDesktop");
+            StartCoroutine(loadNextScene());
+        
     }
 }
 

@@ -7,6 +7,9 @@ using UnityEngine.UI;
 public class NPC : MonoBehaviour
 {
 
+    public AudioSource[] sources;
+   // public AudioSource sound1;
+   // public AudioSource sound2;
     public GameObject DialougePanel;
     public Text DialougeText;
     public string[] dialouge;
@@ -15,9 +18,13 @@ public class NPC : MonoBehaviour
     public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
+    public GameObject nextInteract;
     // Start is called before the first frame update
     void Start()
     {
+        sources= GetComponents<AudioSource>();
+       // sound1 = sources[0];
+       // sound2 = sources[1];
         DialougeText.text = "";
     }
 
@@ -36,20 +43,26 @@ public class NPC : MonoBehaviour
         {
             playerIsClose = false;
             zeroText();
+        
         }
     }
 
     public void zeroText()
     {
-        DialougeText.text = "";
-        index = 0;
-        DialougePanel.SetActive(false);
         StopCoroutine(Typing());
+        index = 0;
+        DialougeText.text = "";
+        DialougePanel.SetActive(false);
+ 
     }
     IEnumerator Typing()
     {
         foreach(char letter in dialouge[index].ToCharArray())
         {
+            if (!sources[0].isPlaying)
+            {
+                sources[0].Play();
+            }
             DialougeText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
         }
@@ -70,6 +83,7 @@ public class NPC : MonoBehaviour
 
         else
         {
+            nextInteract.SetActive(true);
             zeroText();
         }
     }
@@ -80,6 +94,7 @@ public class NPC : MonoBehaviour
         {
             if (!DialougePanel.activeInHierarchy)
             {
+                sources[1].Play();
                 DialougePanel.SetActive(true);
                 portrait[index].SetActive(true);
                 StartCoroutine(Typing());
@@ -87,6 +102,7 @@ public class NPC : MonoBehaviour
 
             else if (DialougeText.text == dialouge[index])
             {
+                sources[1].Play();
                 nextLine();
             }
 
