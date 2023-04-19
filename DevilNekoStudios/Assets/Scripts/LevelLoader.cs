@@ -22,7 +22,7 @@ public class LevelLoader : MonoBehaviour
     IEnumerator loadLevel()
     {
         source.Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         SceneManager.LoadScene("VictimsGame");
     }
     // Update is called once per frame
