@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/YesChoiceScene.unity
     guid: 1adbd9a9f9d52b3419905384a10e950d
+  - enabled: 1
+    path: Assets/Scenes/ChatroomScene.unity
+    guid: 7c8e440a4e9b9da429ddaf9d623ff9de
   m_configObjects: {}
