@@ -184,8 +184,8 @@ MonoBehaviour:
   m_text: The investigation showed that money they were promised back never reached
     them...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &6711974
@@ -403,11 +403,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718223509879, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.836639
+      value: 0.8366387
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 71.35
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_SizeDelta.y
       value: 1061.5759
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.8369
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -437,6 +445,10 @@ PrefabInstance:
         way I did last time.\r\n\nCutsyrebecca: OMG YOU\u2019RE THE BEST! Thank you
         so much! I love you\r\n\nRyanTheGOAT: I love you too\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
     - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 8
@@ -483,7 +495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -276.4189
+      value: -271.96
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -515,11 +527,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -171.99997
+      value: -151.00002
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 121.23
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -893,11 +905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404872, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -240
+      value: -281
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404872, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 23
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404873, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1100,11 +1112,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404872, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -241.4
+      value: -279
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404872, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -149.4
+      value: -162
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404873, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1785,8 +1797,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lets jump to the next day now...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1849,7 +1861,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1083153944
@@ -1966,11 +1978,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404872, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -242
+      value: -281
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404872, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -65
+      value: -49.177
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404873, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2083,8 +2095,16 @@ PrefabInstance:
       value: 0.575506
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 71.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_SizeDelta.y
       value: 408.5337
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.8369
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2101,6 +2121,10 @@ PrefabInstance:
         my pc monitor too\r\n\nRyanTheGOAT: Weird\u2026must be a glitch then\r\n\nCutsyrebecca:
         I promise you. I will pay you back. I\u2019m gonna call them rn x\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
     - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 8
@@ -2147,7 +2171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -276.4189
+      value: -271.96
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2179,11 +2203,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -172
+      value: -151.00003
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 121.23
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2245,7 +2269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.5, y: -64.185}
+  m_AnchoredPosition: {x: 356, y: -165.6}
   m_SizeDelta: {x: 44.4996, y: 45.2104}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1226790054
@@ -2658,11 +2682,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404872, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -242
+      value: -280
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404872, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 111
+      value: 172
       objectReference: {fileID: 0}
     - target: {fileID: 4596194911954404873, guid: aec1c322de18f634dabd74e5c63f32d8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2711,8 +2735,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Hmmm. The next activity seems to be very heated. Let\u2019s take a look."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3178,8 +3202,16 @@ PrefabInstance:
       value: 0.59428775
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 66.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_SizeDelta.y
       value: 427.4461
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.6368
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3195,6 +3227,10 @@ PrefabInstance:
         Why thanks. Ya it would be nice. You seem very confident. \r\n\nCutsyrebecca:
         Ya sorry if I seem a bit forward\r\n\nRyanTheGOAT: You\u2019re good\r\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
     - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 8
@@ -3241,7 +3277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -276.4189
+      value: -269.733
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3273,11 +3309,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -172
+      value: -151.00003
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 115.66
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3425,19 +3461,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718223509879, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718223509879, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.72344434
+      value: 0.7197933
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 66.95
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 627.0719
+      value: 618.9003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -2.6368
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525590, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -226.82565
+      value: -222.74054
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_Text
@@ -3456,6 +3500,10 @@ PrefabInstance:
         I\u2019ll send over the money. \r\n\nCutsyrebecca: Thanks Hun! You\u2019re
         the best x\r\n\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
     - target: {fileID: 1722661718861525591, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 8
@@ -3502,7 +3550,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -276.4189
+      value: -271.9616
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3534,11 +3582,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -172
+      value: -151.00003
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 121.22865
       objectReference: {fileID: 0}
     - target: {fileID: 1722661718941025098, guid: 4d813231fb57cdc4489c16d3dabfa0e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3628,8 +3676,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Lets jump ahead to the first flagged activity
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3692,7 +3740,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2104893720
