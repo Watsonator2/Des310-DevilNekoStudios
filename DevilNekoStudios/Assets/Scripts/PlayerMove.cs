@@ -42,6 +42,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        playerBoundaries();
         playerMove = transform.position;
         float postUpdateX = Input.GetAxis("Horizontal") * Time.deltaTime;
         float postUpdateY = Input.GetAxis("Vertical") * Time.deltaTime;
