@@ -8,6 +8,7 @@ public class ChatroomScript : MonoBehaviour
     public GameObject chatroomIcon;
     public GameObject chatRoom;
     public GameObject nextInteract;
+    public GameObject nextText;
 
     private AudioSource source;
     // Start is called before the first frame update
@@ -19,7 +20,10 @@ public class ChatroomScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (nextText.activeInHierarchy)
+        {
+            targetText.SetActive(false);
+        }
         
     }
 

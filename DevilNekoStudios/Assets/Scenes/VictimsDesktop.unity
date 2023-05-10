@@ -4026,6 +4026,10 @@ PrefabInstance:
       value: Cursor
       objectReference: {fileID: 0}
     - target: {fileID: 249916166580593385, guid: 0a07dcc7d20f48344bfa983df1f30fcc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 249916166580593385, guid: 0a07dcc7d20f48344bfa983df1f30fcc, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
