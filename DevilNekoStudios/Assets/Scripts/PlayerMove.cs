@@ -45,7 +45,7 @@ public class PlayerMove : MonoBehaviour
         playerBoundaries();
         playerMove = transform.position;
         float postUpdateX = Input.GetAxis("Horizontal") * Time.deltaTime;
-        float postUpdateY = Input.GetAxis("Vertical") * Time.deltaTime;
+       // float postUpdateY = Input.GetAxis("Vertical") * Time.deltaTime;
 
         if(Input.GetAxis("Horizontal") < 0 || Input.GetAxis("Horizontal") > 0)
         {
@@ -56,13 +56,13 @@ public class PlayerMove : MonoBehaviour
         }
 
 
-        if (Input.GetAxis("Vertical") < 0 || Input.GetAxis("Vertical") > 0)
-        {
-            if (source.isPlaying == false)
-            {
-                source.Play();
-            }
-        }
+       // if (Input.GetAxis("Vertical") < 0 || Input.GetAxis("Vertical") > 0)
+    //    {
+       //     if (source.isPlaying == false)
+    //        {
+      //          source.Play();
+       //     }
+    //    }
 
        // var direction = new Vector2(postUpdateX, postUpdateY).normalized;
        // direction *= 5.0f * Time.deltaTime;
@@ -71,7 +71,7 @@ public class PlayerMove : MonoBehaviour
        // var yValidPosition = Mathf.Clamp(transform.position.y + direction.y, yMin, yMax);
 
        playerMove.x += postUpdateX * 5.0f;
-       playerMove.y += postUpdateY * 5.0f;
+      // playerMove.y += postUpdateY * 5.0f;
 
         transform.position = playerMove;
        // transform.position = new Vector3(xValidPosition,yValidPosition,0);
