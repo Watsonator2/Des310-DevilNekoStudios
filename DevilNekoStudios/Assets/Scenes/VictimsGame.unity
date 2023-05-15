@@ -10484,7 +10484,7 @@ PrefabInstance:
     - target: {fileID: 8195857564967483083, guid: 24e55c42b6c974e4fa6208b28ffb083e, type: 3}
       propertyPath: dialouge.Array.data[3]
       value: "You say this every time. And no I can\u2019t wait because I need that
-        money to pay for my electric bill. \xA375 is what I need to pay it."
+        money to pay for my electric bill. 75 pounds is what I need to pay it."
       objectReference: {fileID: 0}
     - target: {fileID: 8195857564967483083, guid: 24e55c42b6c974e4fa6208b28ffb083e, type: 3}
       propertyPath: dialouge.Array.data[4]

@@ -412,8 +412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45.3448, y: -21.5332}
-  m_SizeDelta: {x: 250.6896, y: 73.0663}
+  m_AnchoredPosition: {x: 242.6, y: 97}
+  m_SizeDelta: {x: 250.6896, y: 177.2097}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &549300115
 MonoBehaviour:
@@ -451,7 +451,14 @@ MonoBehaviour:
   m_Text: 'You choose correctly
 
 
-    Suspect was committing fraud.'
+    Suspect was committing fraud.
+
+
+    For more
+    information on romance fraud, visit:
+
+
+    https://www.actionfraud.police.uk/a-z-of-fraud/dating-fraud'
 --- !u!222 &549300116
 CanvasRenderer:
   m_ObjectHideFlags: 0
